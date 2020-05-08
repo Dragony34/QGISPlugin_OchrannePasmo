@@ -1,0 +1,38 @@
+# This file contains metadata for your plugin
+# version 3.x of QGIS
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Ochranne pasmo horizontu
+qgisMinimumVersion=3.0
+description=Makes a buffer around horizont
+version=1.0
+
+about=Makes a buffer around horizont.
+
+tracker=
+repository=
+# End of mandatory metadata
+
+# Recommended items:
+
+#changelog=
+#	0.5 - Changed dialog for toolbar
+#	Postcode are automatically updated once available
+#	vertex marker bug fix
+
+# Tags are comma separated with spaces allowed
+tags=python, PohledHoriz, horizont, cz
+
+homepage=
+category=Plugins
+icon=zoomicon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+author=Jakub Slovak
+email=
