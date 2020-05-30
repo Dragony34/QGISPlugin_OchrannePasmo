@@ -4,12 +4,12 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=Ochranne pasmo horizontu v4.2 final?
+name=Ochranne pasmo horizontu
 qgisMinimumVersion=3.0
-description=Makes a buffer around horizont
+description=Makes a protection zone around horizon
 version=1.0
 
-about=Makes a buffer around horizont.
+about=This plugin creates protection zone around horizon. As an input data add raster layer with elevation, raster with ridges or hillpoints only and number value of protection zone size. Then simply select output folder. It will generate raster with protection zone of the given value.
 
 tracker=
 repository=
@@ -23,7 +23,7 @@ repository=
 #	vertex marker bug fix
 
 # Tags are comma separated with spaces allowed
-tags=python, PohledHoriz, horizont, cz
+tags=python, OchrannePasmo, horizont, CZ
 
 homepage=
 category=Plugins

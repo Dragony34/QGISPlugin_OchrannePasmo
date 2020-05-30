@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 /***************************************************************************
- PohledHoriz
-                                 A QGIS plugin
- Shows the view horizon from point on the map
+ pohled_horiz
+                    QGIS plugin Ochranne pasmo horizontu
+
+ Vypočítá ochranné pásmo horizontu
 
 /***************************************************************************
  *                                                                         *
@@ -15,14 +16,11 @@
  ***************************************************************************/
 """
 
-
-# noinspection PyPep8Naming
-def classFactory(iface):  # pylint: disable=invalid-name
+def classFactory(iface):
     """Load Ochranne_pasmo class from file pohled_horiz.
 
     :param iface: A QGIS interface instance.
     :type iface: QgsInterface
     """
-    #
     from .pohled_horiz import Ochranne_pasmo
     return Ochranne_pasmo(iface)
